@@ -53,9 +53,10 @@ ECHO AI operates over a modular client-server framework connecting users through
     │  - Auth Engine   │
     └──────────────────┘
 
+
 ---
 
-🔧 Installation & Initial Setup
+## 🔧 Installation & Initial Setup
 
 Follow these steps to deploy and run ECHO AI locally in your development environment:
 
