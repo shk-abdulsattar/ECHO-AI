@@ -53,7 +53,7 @@ ECHO AI operates over a modular client-server framework connecting users through
     │  - Auth Engine   │
     └──────────────────┘
 
-
+---
 
 🔧 Installation & Initial Setup
 
