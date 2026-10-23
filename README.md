@@ -1,6 +1,6 @@
 # ECHO AI 🌿🤖
 
-ECHO AI is an AI-powered therapist-like support and wellness platform designed as a comprehensive web-based application. It empowers users to maintain their emotional well-being, establish healthy life habits, reduce stress, and cultivate deeper self-awareness through intelligent conversations and evidence-based wellness activities.
+ECHO AI is an AI-powered therapist and wellness platform designed as a comprehensive web-based application. It empowers users to maintain their emotional well being, establish healthy life habits, reduce stress, and cultivate deeper self awareness through intelligent conversations and evidence based wellness activities.
 
 
 ## 🚀 Core Features
@@ -30,31 +30,6 @@ ECHO AI is an AI-powered therapist-like support and wellness platform designed a
 
 ---
 
-## ⚙️ System Design Architecture
-
-ECHO AI operates over a modular client-server framework connecting users through secure database configurations and real-time cloud computing pipelines:
-
-```text
-       ┌──────────────┐
-       │     User     │
-       └──────┬───────┘
-              │ (Login/Chat/Moods)
-              ▼
-   ┌──────────────────────┐      AI Request      ┌────────────────┐
-   │    ECHO AI System    ├─────────────────────>│  Gemini AI API │
-   │ (React/Node/Express) │<─────────────────────┤                │
-   └──────────┬───────────┘      AI Response     └────────────────┘
-              │
-              │ (Secure DB Sync)
-              ▼
-    ┌──────────────────┐
-    │ Firebase Cloud   │
-    │  - Firestore     │
-    │  - Auth Engine   │
-    └──────────────────┘
-
-
----
 
 ## 🔧 Installation & Initial Setup
 
