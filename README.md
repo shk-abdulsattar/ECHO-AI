@@ -6,7 +6,7 @@ ECHO AI is an AI-powered therapist and wellness platform designed as a comprehen
 ## 🚀 Core Features
 
 ### 🧠 Intelligent Support
-* **AI Chat Companion**: Engage in personalized, context-aware conversations for emotional guidance powered by the Gemini API. Includes an animated **ZenBot Companion** that changes states dynamically (idle, listening) depending on your activity.
+* **AI Chat**: Engage in personalized, context-aware conversations for emotional guidance powered by the Gemini API. 
 * **Context-Driven Limits**: Stores a contextual window of the last 20 messages per session for fluid conversation flow.
 * **Crisis Detection & Panic Overlay**: Monitored interaction filters keyword indicators of severe distress (e.g., "how to die") to automatically block harmful contexts and immediately surface a supportive **Panic Support Module** filled with deep-breathing guides and emergency contacts.
 
@@ -35,26 +35,31 @@ ECHO AI is an AI-powered therapist and wellness platform designed as a comprehen
 
 Follow these steps to deploy and run ECHO AI locally in your development environment:
 
-Prerequisites
 Ensure you have the Node.js Runtime Environment and npm installed on your system.
+
 
 1. Clone the Repository
 
-Bash
-git clone [https://github.com/shk-abdulsattar/echo-ai.git](https://github.com/shk-abdulsattar/echo-ai.git)
-cd echo-ai
+```Bash
+  git clone [https://github.com/shk-abdulsattar/echo-ai.git](https://github.com/shk-abdulsattar/echo-ai.git)
+  cd echo-ai
+```
 
 2. Configure Environment Variables
-Create a .env file in your root and backend configurations to securely integrate required external developer tokens:
+
+Create a .env file in your root and backend :
 
 Code snippet
-# Firebase Configuration
-REACT_APP_FIREBASE_API_KEY=your_firebase_key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-
+```
+  # Firebase Configuration
+  REACT_APP_FIREBASE_API_KEY=your_firebase_key
+  REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+  REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+```
 # Google AI Studio Configuration
-GEMINI_API_KEY=your_google_gemini_api_token
+```
+  GEMINI_API_KEY=your_google_gemini_api_token
+```
 
 3. Setup the Backend Server
   ```bash
