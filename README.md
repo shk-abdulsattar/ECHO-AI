@@ -45,9 +45,8 @@ Ensure you have the Node.js Runtime Environment and npm installed on your system
   cd echo-ai
 ```
 
-2. Configure Environment Variables
 
-  Create a .env file in your root and backend :
+2. Configure Environment Variables
 
   Code snippet
   ```
