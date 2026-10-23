@@ -57,17 +57,19 @@ REACT_APP_FIREBASE_PROJECT_ID=your_project_id
 GEMINI_API_KEY=your_google_gemini_api_token
 
 3. Setup the Backend Server
-Bash
-cd backend
-npm install
-npm run dev
+  ```bash
+  cd backend
+    npm install
+    npm run dev
+  ```
 
 4. Setup the Frontend App
 Open a separate terminal window and execute:
 
-Bash
-cd frontend
-npm install
-npm run dev
+  ```Bash
+      cd frontend
+      npm install
+      npm run dev
+  ```
 
 Your browser should automatically launch the platform at http://localhost:5173.
