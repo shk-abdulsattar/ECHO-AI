@@ -47,19 +47,19 @@ Ensure you have the Node.js Runtime Environment and npm installed on your system
 
 2. Configure Environment Variables
 
-Create a .env file in your root and backend :
+  Create a .env file in your root and backend :
 
-Code snippet
-```
-  # Firebase Configuration
-  REACT_APP_FIREBASE_API_KEY=your_firebase_key
-  REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-  REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-```
-# Google AI Studio Configuration
-```
-  GEMINI_API_KEY=your_google_gemini_api_token
-```
+  Code snippet
+  ```
+    # Firebase Configuration
+    REACT_APP_FIREBASE_API_KEY=your_firebase_key
+    REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+    REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+  ```
+  Google AI Studio Configuration
+  ```
+    GEMINI_API_KEY=your_google_gemini_api_token
+  ```
 
 3. Setup the Backend Server
   ```bash
